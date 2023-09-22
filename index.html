@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        :root {
+            --primary-color: #4CAF50; 
+            --secondary-color: #FF5722; 
+            --background-color: #232323; 
+            --text-color: #FFFFFF; 
+            --container-bg: rgba(0, 0, 0, 0.8);
+            --container-hover-bg: rgba(0, 0, 0, 0.9);
+            --button-hover-bg: #fff;
+            --button-hover-text: var(--primary-color); 
+        }
+
+        body {
+            background: var(--background-color) url('https://wallpapercave.com/wp/wp12409443.jpg') center/cover no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            transition: background-color 0.5s;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin: 0;
+            color: var(--primary-color);
+        }
+
+        p {
+            font-size: 20px;
+            margin: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: var(--container-bg);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: background-color 0.5s, transform 0.5s, box-shadow 0.5s;
+        }
+
+        .container:hover {
+            background-color: var(--container-hover-bg);
+            transform: scale(1.02);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: var(--secondary-color);
+        }
+
+        .btn-container {
+            text-align: center;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .btn:hover {
+            background-color: var(--button-hover-bg);
+            color: var(--button-hover-text);
+        }
+        .telegram-message {
+            text-align: center;
+            margin-top: 20px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <div class="container">
+        <p>👋 Hi there, I'm Vijay Shankar</p>
+        <p>📚 I'm a passionate coder and a cybersecurity enthusiast. Currently, I'm pursuing my B.Tech in Computer Science with a specialization in Cybersecurity at GLA UNIVERSITY MATHURA.</p>
+        <p>👀 I'm deeply interested in coding and cybersecurity, and I'm always eager to learn and explore new technologies.</p>
+        <p>🌱 I'm currently a student, so I'm constantly expanding my knowledge and skills to become proficient in the world of cybersecurity.</p>
+        <p>💻 Strong expertise in Python and HTML, driving digital excellence.</p>
+        <p>👨‍💻 I love to delve into coding challenges and create solutions that make a difference.</p>
+        <p>📬 Feel free to connect with me. You can contact me on my email - <a href="mailto:vijayshankar1035@gmail.com">vijayshankar1035@gmail.com</a>.</p>
+        
+        <div class="btn-container">
+            <a href="https://t.me/vijayshankar22?text=Hello%20Vijay%20Shankar" class="btn">Say Hello!</a>
+        </div>
+    </div>
+</body>
+</html>
